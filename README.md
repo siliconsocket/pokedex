@@ -1,17 +1,17 @@
-#Pokémon Pokedex
+# Pokémon Pokedex
 
-##Este proyecto es una aplicación para la gestión de entrenadores Pokémon, permitiendo realizar operaciones CRUD sobre entrenadores y consumo de API externa. 
-##Utiliza Node.js y Express en el backend, MongoDB como base de datos, y React con Redux Toolkit en el frontend además de TailwindCSS para los styles.
-##Cuenta con validación de data en frontend y backend.
+## Este proyecto es una aplicación para la gestión de entrenadores Pokémon, permitiendo realizar operaciones CRUD sobre entrenadores y consumo de API externa. 
+## Utiliza Node.js y Express en el backend, MongoDB como base de datos, y React con Redux Toolkit en el frontend además de TailwindCSS para los styles.
+## Cuenta con validación de data en frontend y backend.
 
-##Tecnologías y dependencias utilizadas
+## Tecnologías y dependencias utilizadas
 
 - Backend: Node.js, Express, Mongoose
 - Frontend: React, Redux Toolkit, React Router, TailwindCSS
 - Base de Datos: MongoDB
 - Otras: Typescript, Axios para llamadas HTTP, dotenv para manejo de variables de entorno
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 
 `/api: Archivos del servidor Express, modelos de Mongoose, y controladores.`
 
@@ -27,7 +27,7 @@
 `/app/src/redux: Configuración de Redux Toolkit y slices.`
 `/api/src/types: Types para components`
 
-##Instalación
+## Instalación
 
 Para instalar las dependencias del proyecto, sigue estos pasos:
 
@@ -35,7 +35,7 @@ Para instalar las dependencias del proyecto, sigue estos pasos:
 - Navega al directorio del proyecto en tu terminal.
 - Ejecuta `npm i` tanto en el directorio del frontend como en el del backend para instalar todas las dependencias necesarias.
 
-##Configuración
+## Configuración
 
 Para configurar las variables de entorno necesarias para ambos, el frontend y el backend. 
 Esto incluye la URL de conexión a MongoDB y la URL base de la API.
@@ -54,7 +54,7 @@ Para el frontend, crea un archivo `.env` en el directorio `/app` con la siguient
 VITE_API_URL=http://localhost:3001/api/
 ```
 
-##Ejecución
+## Ejecución
 
 Para ejecutar el proyecto, necesitarás iniciar tanto el servidor backend como la aplicación frontend.
 
@@ -70,4 +70,4 @@ Para iniciar la aplicación frontend, navega al directorio `/app` y ejecuta:
 npm run start:dev
 ```
 
-Ahora, deberías poder acceder a la aplicación frontend desde http://localhost:3000 y el servidor backend estará escuchando en http://localhost:3001.
+Ahora, deberías poder acceder a la aplicación frontend desde `http://localhost:3000` y el servidor backend estará escuchando en `http://localhost:3001`.
