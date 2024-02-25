@@ -71,3 +71,10 @@ npm run start:dev
 ```
 
 Ahora, deberías poder acceder a la aplicación frontend desde `http://localhost:3000` y el servidor backend estará escuchando en `http://localhost:3001`.
+
+## Preview
+
+| **Screenshot**                                                            | 
+| -------------------------------------------------------------------------- | 
+| <img width="100%" src="https://github.com/siliconsocket/pokedex/assets/57454123/7156a1ee-2081-4895-bb11-e2ac4db1cb35" /> | 
+
